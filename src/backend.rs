@@ -6,7 +6,7 @@ use std::fmt;
 
 /// Backend indicates one of the supported audio backends.
 ///
-/// Linux supports Also, and optionally PulseAudio, and JACK.
+/// Linux supports Alsa, and optionally PulseAudio, and JACK.
 ///
 /// Windows supports Wasapi, and MacOS supports CoreAudio. All platforms
 /// support the Dummy backend.
